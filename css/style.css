@@ -82,9 +82,9 @@ img {
   margin-bottom: 30px;
 }
 
-/*--------------------------------
- ナビゲーションのためのCSS
----------------------------------*/
+
+/*========= ナビゲーションのためのCSS ===============*/
+
 #g-nav {
     pointer-events: none;
     /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
@@ -146,9 +146,7 @@ img {
         font-weight: bold;
     }
 
-/*--------------------------------
- ボタンのためのCSS
----------------------------------*/
+/*========= ボタンのためのCSS ===============*/
 .openbtn {
 position: fixed;
 z-index: 9999; /*ボタンを最前面に*/
@@ -567,7 +565,7 @@ height: 50px;
 
   /* レイアウト */
   .wrapper {
-    padding-top: 57px;
+    padding-top: 0px;
   }
 
   .section {
@@ -578,6 +576,17 @@ height: 50px;
     padding: 0 20px;
   }
 
+.Mvimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(-135deg, rgba(177,226,242,0.5),rgba(255,189,201,0.5)),url(../img/アイソメ風_MV.png);
+    height: 500px;
+    color: #333;
+    font-size: 60px;
+    font-weight: bold;
+    background-size: cover;
+}
 
   /*  メインビジュアル */
   .mv {
